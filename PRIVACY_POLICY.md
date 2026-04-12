@@ -1,4 +1,4 @@
-# Privacy Policy — MetaFactory: Meta AI Automation
+# Privacy Policy: MetaFactory: Meta AI Automation
 
 **Last updated: April 12, 2026**
 
@@ -35,13 +35,12 @@ The extension operates entirely on your local device and communicates only betwe
 
 | Permission | Why it is needed |
 |---|---|
-| `activeTab` | Verify the current tab is on meta.ai before running |
-| `tabs` | Detect tab switches to keep the UI status accurate |
+| `tabs` | Detect tab switches and read the active tab URL to verify you are on meta.ai |
 | `scripting` | Inject the automation script into the Meta AI tab |
 | `downloads` | Save generated images to your local Downloads folder |
 | `sidePanel` | Display the extension's control panel |
 | `storage` | Save your language preference locally |
-| `host_permissions: meta.ai/*` | Operate only on Meta AI pages — no other sites |
+| `host_permissions: meta.ai/*` | Operate only on Meta AI pages, no other sites |
 
 ## Third-Party Services
 
@@ -64,4 +63,4 @@ If this policy changes, the updated version will be published in this repository
 ## Contact
 
 For questions or concerns about this privacy policy, open an issue at:
-https://github.com/kodeofkartik/metafactoryextension
+https://github.com/kodeofkartik
